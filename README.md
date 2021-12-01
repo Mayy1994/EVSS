@@ -79,9 +79,9 @@ bash run/val_citys.sh
 bash run/val_camvid.sh
 ````
 ## Evaluating our pretrained models
-Please download the pretrained EVSS model on Cityscapes and CamVid. 
+Please download the pretrained EVSS models on Cityscapes and CamVid. 
 
-Put the pretrained EVSS models under $EVSS_ROOT/saved_model/evss.
+Put the pretrained models under $EVSS_ROOT/saved_model/evss.
 
 | model | Link |
 | :--: | :--: |
