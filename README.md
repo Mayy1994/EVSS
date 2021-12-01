@@ -22,10 +22,15 @@ Please download the [Cityscapes](https://www.cityscapes-dataset.com/) and [CamVi
 - Create a virtual env
 - To Install resampled 2d modules
 ```
-cd $DAVSS_ROOT/lib/model/resample2d_package
+cd $EVSS_ROOT/model/resample2d_package
 python setup.py build
 ```
 - Download the pretrained CSRNet and FlowNet
+| model | Link |
+| :--: | :--: |
+| CSRNet_Cityscapes | [Google Drive](https://drive.google.com/file/d/1onVZChvwK25OUW4Now6vgGXSzlnhmK2q/view?usp=sharing) |
+| CSRNet_CamVid | [Google Drive](https://drive.google.com/file/d/16e7T4fMarJKIzn5_-e27UhRPmaZgdvzN/view?usp=sharing) |
+| FlowNet | [Google Drive](https://drive.google.com/file/d/1xJjhkjVGjKJyPVBfhlELl1Gzse4RFm-_/view?usp=sharing) |
 - Run bash file to strat training
 ````bash
 # train on Cityscapes
@@ -42,3 +47,5 @@ bash val_citys.sh
 # test on CamVid
 bash val_camvid.sh
 ````
+
+
