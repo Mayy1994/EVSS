@@ -65,18 +65,18 @@ python setup.py build
 - Run bash file to strat training.
 ````bash
 # train on Cityscapes
-bash train_citys.sh
+bash run/train_citys.sh
 # train on CamVid
-bash train_camvid.sh
+bash run/train_camvid.sh
 ````
 
 ## Testing
 - Run bash file to strat testing.
 ````bash
 # test on Cityscapes
-bash val_citys.sh
+bash run/val_citys.sh
 # test on CamVid
-bash val_camvid.sh
+bash run/val_camvid.sh
 ````
 ## Evaluating our pretrained models
 Please download the pretrained EVSS model on Cityscapes and CamVid. 
