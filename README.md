@@ -56,10 +56,8 @@ Please download the pretrained EVSS model on Cityscapes and CamVid
 
 | model | Link |
 | :--: | :--: |
-| CSRNet_Cityscapes | [Google Drive](https://drive.google.com/file/d/1onVZChvwK25OUW4Now6vgGXSzlnhmK2q/view?usp=sharing) |
-| CSRNet_CamVid | [Google Drive](https://drive.google.com/file/d/16e7T4fMarJKIzn5_-e27UhRPmaZgdvzN/view?usp=sharing) |
-| FlowNet | [Google Drive](https://drive.google.com/file/d/1xJjhkjVGjKJyPVBfhlELl1Gzse4RFm-_/view?usp=sharing) |
-
+| EVSS_Cityscapes | [Google Drive](https://drive.google.com/file/d/10IlbD334GjQB6p5RiNvSfdQoeNUGrKev/view?usp=sharing) |
+| EVSS_CamVid | [Google Drive](https://drive.google.com/file/d/1SLB-r2c6OVTJMsJnmYmN8mYouCpdWMwb/view?usp=sharing) |
 
 
 
