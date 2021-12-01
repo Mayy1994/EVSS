@@ -47,7 +47,7 @@ $EVSS_root/dataset
 
 ## Training
 - Create a virtual environment.
-- Install resampled 2d modules.
+- Install resampled 2d modules for the feature warping process.
 ```
 cd $EVSS_ROOT/model/resample2d_package
 python setup.py build
