@@ -51,6 +51,7 @@ $EVSS_root/dataset
 ```
 cd $EVSS_ROOT/model/resample2d_package
 python setup.py build
+cd $EVSS_ROOT
 ```
 - Download the pretrained CSRNet and FlowNet models. 
 
