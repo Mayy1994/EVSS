@@ -28,13 +28,6 @@ Please download the [Cityscapes](https://www.cityscapes-dataset.com/downloads/) 
 Your directory tree should be look like this:
 ````bash
 $EVSS_root/dataset
-├── cityscapes
-│   ├── gtFine
-│   │   ├── train
-│   │   └── val
-│   └── leftImg8bit_sequence
-│       ├── train
-│       └── val
 ├── camvid
 │   ├── 11labels
 │   │   ├── segmentation annotations
@@ -44,6 +37,14 @@ $EVSS_root/dataset
 │       ├── 0006R0
 │       └── 0016E5
 │       └── Seq05VD
+├── cityscapes
+│   ├── gtFine
+│   │   ├── train
+│   │   └── val
+│   └── leftImg8bit_sequence
+│       ├── train
+│       └── val
+
 ````
 
 ## Training
