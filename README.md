@@ -23,7 +23,7 @@ The experiments are conducted on a Ubuntu 18.04 LTS PC with two NVIDIA GeForce G
 
 ## Dataset setup
 
-Please download the [Cityscapes](https://www.cityscapes-dataset.com/downloads/) (324G) and [CamVid](http://mi.eng.cam.ac.uk/research/projects/VideoRec/CamVid/) (17G) **video sequences** dataset. For Cityscapes dataset, you need to send an email to Cityscapes requesting permission for the video dataset.
+Please download the [Cityscapes](https://www.cityscapes-dataset.com/downloads/) and [CamVid](http://mi.eng.cam.ac.uk/research/projects/VideoRec/CamVid/) **video sequences** dataset. For Cityscapes dataset, you need to send an email to Cityscapes requesting permission for the video dataset.
 
 Your directory tree should be look like this:
 ````bash
