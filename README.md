@@ -92,10 +92,3 @@ Put the pretrained models under $EVSS_ROOT/saved_model/evss.
 | EVSS_Cityscapes | [Google Drive](https://drive.google.com/file/d/10IlbD334GjQB6p5RiNvSfdQoeNUGrKev/view?usp=sharing) |
 | EVSS_CamVid | [Google Drive](https://drive.google.com/file/d/1SLB-r2c6OVTJMsJnmYmN8mYouCpdWMwb/view?usp=sharing) |
 
-
-
-
-<<<<<<< HEAD
-
-=======
->>>>>>> 5618788be06e303f2ab3a216b519f9180a2df49a
