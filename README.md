@@ -48,7 +48,7 @@ $EVSS_root/dataset
 ````
 
 ## Training
-- Create a virtual environment.
+- Create a virtual environment and install the required python packages.
 - Install resampled 2d modules for the feature warping process.
 ```
 cd $EVSS_ROOT/model/resample2d_package
@@ -81,6 +81,7 @@ bash run/val_citys.sh
 # test on CamVid
 bash run/val_camvid.sh
 ````
+
 ## Evaluating our pretrained models
 Please download the pretrained EVSS models on Cityscapes and CamVid. 
 
