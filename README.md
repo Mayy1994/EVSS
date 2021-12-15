@@ -57,13 +57,8 @@ cd $EVSS_ROOT
 ```
 - Download the pretrained CSRNet and FlowNet models. 
 
-   Put the pretrained models under $EVSS_ROOT/saved_model/pretrained.
+   Put the pretrained models [CSRNet_Cityscapes](https://drive.google.com/file/d/1onVZChvwK25OUW4Now6vgGXSzlnhmK2q/view?usp=sharing), [CSRNet_CamVid](https://drive.google.com/file/d/16e7T4fMarJKIzn5_-e27UhRPmaZgdvzN/view?usp=sharing) and [FlowNet](https://drive.google.com/file/d/1xJjhkjVGjKJyPVBfhlELl1Gzse4RFm-_/view?usp=sharing) under $EVSS_ROOT/saved_model/pretrained.
 
-| model | Link |
-| :--: | :--: |
-| CSRNet_Cityscapes | [Google Drive](https://drive.google.com/file/d/1onVZChvwK25OUW4Now6vgGXSzlnhmK2q/view?usp=sharing) |
-| CSRNet_CamVid | [Google Drive](https://drive.google.com/file/d/16e7T4fMarJKIzn5_-e27UhRPmaZgdvzN/view?usp=sharing) |
-| FlowNet | [Google Drive](https://drive.google.com/file/d/1xJjhkjVGjKJyPVBfhlELl1Gzse4RFm-_/view?usp=sharing) |
 
 - Run bash file to strat training.
 ````bash
@@ -85,10 +80,8 @@ bash run/val_camvid.sh
 ## Evaluating our pretrained models
 Please download the pretrained EVSS models on Cityscapes and CamVid. 
 
-Put the pretrained models under $EVSS_ROOT/saved_model/evss.
+Put the pretrained models [EVSS_Cityscapes](https://drive.google.com/file/d/1idboN5mWtvdVJKqh6vcZZrr5-kOwbfZ5/view?usp=sharing) and [EVSS_CamVid](https://drive.google.com/file/d/1SLB-r2c6OVTJMsJnmYmN8mYouCpdWMwb/view?usp=sharing) under $EVSS_ROOT/saved_model/evss.
 
-| model | Link |
-| :--: | :--: |
-| EVSS_Cityscapes | [Google Drive](https://drive.google.com/file/d/1idboN5mWtvdVJKqh6vcZZrr5-kOwbfZ5/view?usp=sharing) |
-| EVSS_CamVid | [Google Drive](https://drive.google.com/file/d/1SLB-r2c6OVTJMsJnmYmN8mYouCpdWMwb/view?usp=sharing) |
+
+
 
