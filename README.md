@@ -62,18 +62,18 @@ cd $EVSS_ROOT
 
 - Run bash file to strat training.
 ````bash
-# train on Cityscapes
+# training on Cityscapes
 bash run/train_citys.sh
-# train on CamVid
+# training on CamVid
 bash run/train_camvid.sh
 ````
 
 ## Testing
 - Run bash file to strat testing.
 ````bash
-# test on Cityscapes
+# testing on Cityscapes
 bash run/val_citys.sh
-# test on CamVid
+# testing on CamVid
 bash run/val_camvid.sh
 ````
 
