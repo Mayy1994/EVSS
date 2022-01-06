@@ -121,16 +121,12 @@ class VSSNet(nn.Module):
         # edge-semantics loss
         loss_edge_semantic += self.edge_semantic_loss(img_2_feat_update_edge, img_2_mask_edge.detach())
 
-        loss_warp /= 2
         loss_warp = torch.unsqueeze(loss_warp, 0)
         
-        loss_semantic /= 2
         loss_semantic = torch.unsqueeze(loss_semantic, 0)
 
-        loss_edge /= 2
         loss_edge = torch.unsqueeze(loss_edge, 0)
 
-        loss_edge_semantic /= 2
         loss_edge_semantic = torch.unsqueeze(loss_edge_semantic, 0)
 
 
