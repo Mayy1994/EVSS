@@ -195,7 +195,7 @@ def train():
             loss_edge = torch.mean(loss_edge)
             loss_edge_semantic = torch.mean(loss_edge_semantic)
 
-            loss = loss_warp + loss_semantic  + loss_edge + loss_edge_semantic
+            loss = 0.2 * loss_warp + 0.5 * loss_semantic  + 0.1 * loss_edge + 0.2 * loss_edge_semantic
 
             loss.backward()
 
