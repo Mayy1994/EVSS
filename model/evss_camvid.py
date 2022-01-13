@@ -106,7 +106,7 @@ class VSSNet(nn.Module):
         dm_coarse = F.upsample(dm_coarse, scale_factor=4, mode='bilinear', align_corners=False)
 
         # fine distortio map
-        dm_fine = 0.5 * dm_edge[:,1,:,:].unsqueeze(1) + 0.5 * dm_coarse
+        dm_fine = 0.8 * dm_edge[:,1,:,:].unsqueeze(1) + 0.2 * dm_coarse
 
         img_2_out_merge = img_2_out_propagate * (1-dm_fine) + img_2_feat_update * dm_fine
 
