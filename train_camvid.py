@@ -39,7 +39,7 @@ def get_arguments():
     parser.add_argument("--lr", type=float, help="learning rate")
     parser.add_argument("--local_rank", type=int, help="index the replica")
     parser.add_argument("--conet_lr", type=float, help="learning rate of conet")
-    parser.add_argument("--wf", type=float, default=0.5, help="learning rate of conet")
+    parser.add_argument("--wf", type=float, default=0.2, help="learning rate of conet")
     parser.add_argument("--random_seed", type=int, help="random seed")
     parser.add_argument("--train_flownet", type=ast.literal_eval, default=True, help="trian flownet or not")
     parser.add_argument("--train_power", type=float, help="power value for linear learning rate schedule")
