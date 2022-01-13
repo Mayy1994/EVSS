@@ -101,7 +101,7 @@ class VSSNet(nn.Module):
         dm_2 = F.softmax(edge, 1)
         dm_flow = F.upsample(dm_flow, scale_factor=4, mode='bilinear', align_corners=False)
 
-        dm_2 = 0.5 * dm_2[:,1,:,:].unsqueeze(1) + 0.5 * dm_flow
+        dm_2 = 0.8 * dm_2[:,1,:,:].unsqueeze(1) + 0.2 * dm_flow
 
         img_2_out_merge = img_2_out_propagate * (1-dm_2) + img_2_out_cc*dm_2
 
