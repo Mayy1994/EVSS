@@ -1,7 +1,11 @@
 # EVSS
 Distortion Map-Guided Feature Rectification for Efficient Video Semantic Segmentation
 
-<p align="center"><img src="./figure/video_demo.mp4" width="860" alt="" /></p>
+
+
+https://user-images.githubusercontent.com/40232175/155465559-d1ba5e1d-a197-4d73-b33a-9762845bac95.mp4
+
+
 
 We present an efficient distortion map-guided feature rectification method for video semantic segmentation, specifically targeting the feature updating and correction on the distorted regions with unreliable optical flow. The updated features for the distorted regions are extracted from a light correction network (CoNet). A distortion map serves as the weighted attention to guide the feature rectification by aggregating the warped features and the updated features. The generation of the distortion map is simple yet effective in predicting the distorted areas in the warped features, i.e., moving boundaries, thin objects, and occlusions. 
 
